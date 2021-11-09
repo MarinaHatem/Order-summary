@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat:no-repeat ;
+    background-color: hsl(225, 100%, 98%);
+    position: relative;
+    font-size: 16px;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50% , -50%);
+    max-width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    overflow:hidden;
+}
+.text-content{
+    padding: 7%;
+    text-align: center;
+}
+.title{
+    color:hsl(223, 47%, 23%) ;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+p.subtitle{
+    color:hsl(224, 23%, 55%);
+    margin-bottom: 25px;
+}
+.annual-plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.annual-left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.annual-left div{
+    margin-left: 20px;
+}
+.annual-left div h5{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 17px;
+}
+.annual-left div p{
+    font-size: 14px;
+    color:hsl(224, 23%, 55%);
+}
+.annual-plan .annual-right a {
+    color:hsl(245, 75%, 52%);
+}
+a.payment-button{
+background-color: hsl(245, 75%, 52%);
+display: block;
+color: white;
+text-decoration: none;
+padding: 20px 0;
+border-radius: 13px;
+margin: 30px 0;
+}
+a.cancel-button{
+    font-weight: 700;
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+}
